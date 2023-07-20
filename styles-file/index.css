@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@500;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* nav related styles */
+
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+.heading-1 {
+
+    font-size: 50px;
+
+}
+
+.heading-style {
+
+    color: FF42A5;
+
+}
+
+
+nav {width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+
+}
+
+.nav-title {
+
+    color: #181818;
+    font-size: 45;
+    font-weight: 800;
+
+}
+
+nav>ul {
+
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #474747;
+
+}.div-btn-1 {
+
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    border-radius: 8px;
+   
+
+}
+
+/* Gaming-header styling */
+
+.Gaming-header {
+
+    background-color: #FFF8F3;
+
+}
+
+.banner-image{
+    
+    width: 40%;
+   
+}.banner-image img{
+   
+    width: 100%;
+}
+.banner {
+
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 240px 0 120px;
+
+}
+
+.banner-content {
+
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+.banner-title {
+    font-size: 4rem;
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+.banner-greeting {
+ font-size: 2.5rem;
+    
+    color: hsl(0, 56%, 2%);
+    margin-bottom: 0px;
+   
+}
+.header-para{
+    margin-top: 12px;
+    line-height: 30px;
+}
+
+
+.btn-0 {
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    font-size: 16px;
+    margin-left: 30px;
+    width: 200;
+    height: 40px;
+    border: 0;
+    padding: 5px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+/* first feature styling */
+
+.first-feature {
+
+    display: flex;
+    width: 100%;
+    background: rgba(255, 66, 165, 0.03);
+}
+
+.btn{
+    display: inline-flex;
+padding: 15px 30px;
+align-items: flex-start;
+gap: 10px;background:#F948B2;
+outline: none;
+border: none;border-radius: 20px;
+color: #FFF;margin-top: 20px;}
+
+.btn-2{
+    background: #4EC5F7;;
+}
+.heading-2 {
+
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #F948B2;
+
+}
+
+
+.btn-5 {
+
+    border-radius: 48px;
+    border: 0;
+    padding: 10px;
+    background: #FF42A5;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+
+/* second feature starting  */
+
+.gamer-content {
+
+ 
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.game-description-title {
+
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+
+.card-description {
+
+    font-size: 0.8rem;
+margin-top: 10px;
+    color: #131313;
+
+}
+
+.facts-card-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px;
+
+}.para{
+    margin-top: 20px;
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+   
+
+
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+/* footer feature starting  */
+
+
+.footer-feature {
+
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #0B0223;
+    ;
+
+}
+
+.logo-1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.frame-image-1 {
+
+    font-size: 20px;
+
+
+}
+
+.heading-11 {
+
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 700;
+
+}
+
+.anchor a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 5px;
+
+
+}
+/* responsive */
+
+@media screen and (max-width:576px) {
+    .facts-card-container {
+
+       flex-direction: column;
+       align-items: center;
+       row-gap: 50px;
+    }
+
+   nav{
+    width: 100%;
+   }
+  nav, nav>ul  {
+   
+        flex-direction: column;
+ align-items: center;
+ justify-content: center;row-gap: 20px;
+    }
+}
